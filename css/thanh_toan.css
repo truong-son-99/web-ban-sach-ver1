@@ -1,0 +1,146 @@
+.content {
+    background-color: #f0f0f0;
+    padding-top: 21px;
+}
+
+.content__check-order-product {
+    background-color: #fff;
+    padding: 20px 42px 10px 30px;
+}
+
+.content__check-order-product-list {
+    padding: 10px 0;
+}
+
+.content__check-order-product-heading {
+    display: block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    font-weight: bold;
+}
+
+.content__check-order-product-item-info {
+    display: flex;
+    align-items: center;
+}
+
+.content__check-order-product-item-info+.content__check-order-product-item-info {
+    padding: 6px 0;
+    border-top: 1px solid #ccc;
+}
+
+.content__check-order-product-img-wrapper {
+    flex-basis: 10%;
+}
+
+.content__check-order-product-img {}
+
+.content__check-order-product-name {
+    flex-basis: 40%;
+}
+
+.content__check-order-product-price {
+    flex-basis: 20%;
+}
+
+.content__check-order-product-price-current {
+    display: block;
+    font-weight: bold;
+}
+
+.content__check-order-product-price-old {
+    display: block;
+    color: #bfbfbf;
+    text-decoration: line-through;
+}
+
+.content__check-order-product-quantity {
+    flex-basis: 20%;
+    font-weight: bold;
+}
+
+.content__check-order-product-total-money {}
+
+/* Css form thanh toán */
+.form {
+    background-color: #fff;
+    padding: 0 0 30px 42px;
+}
+
+
+.form-heading {
+    display: block;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+
+.form-group {
+    padding: 5px 0;
+}
+
+.form-group+.form-group {
+    /* border-top: 1px solid #ccc; */
+}
+
+
+.form-label {
+    width: 200px;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+input[type="text"] {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    height: 35px;
+    width: 600px;
+    outline: none;
+}
+
+input[type="radio"] {}
+
+/* .form-control {
+
+} */
+
+.form-group-checkbox-block {
+    padding: 10px 0;
+    font-size: 1rem;
+}
+
+.content__total-final-price-block {
+    border-top: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.content__total-final-price-block-item {
+    display: flex;
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
+
+.content__total-final-price-label {
+    display: block;
+    color: red;
+    font-weight: bold;
+    width: 460px;
+}
+
+.content__total-final-price-number {}
+
+.content__btn-payment {
+    width: 100%;
+    padding: 16px 16px;
+    border: none;
+    font-size: 1.2rem;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}

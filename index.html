@@ -1,0 +1,1481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web bán sách</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/form_dang_ki.css">
+    <link rel="stylesheet" href="./css/trangchu.css">
+    <link rel="stylesheet" href="./css/grid.css">
+
+</head>
+
+<body>
+    <div class="app">
+        <!-- Header -->
+        <div class="header-wrapper">
+            <div class="grid wide">
+                <div class="header">
+                    <span class="header__logo">NewBook.Vn</span>
+                    <div class="header__search">
+                        <div class="header__search-input-wraper">
+                            <input type="text" placeholder="Nhập sản phẩm tìm kiếm" class="header__search-input">
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="fa-solid fa-magnifying-glass header__search-btn-icon"></i>
+                        </button>
+                    </div>
+                    <div class="header__notify-cart-wraper">
+                        <div class="header__notify">
+                            <i class="fa-solid fa-bell header__notify-icon"></i>
+                            <span class="header__label">Thông báo</span>
+                            <span class="header__notify-quantity">5</span>
+                            <div class="header__notify-pane">
+                                <span class="header__notify-pane-header">Thông báo mới nhận</span>
+                                <ul class="header__notify-pane-list">
+                                    <li class="header__notify-pane-item">
+                                        <a href="" class="header__notify-pane-item-link">
+                                            <div class="header__notify-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/t/i/tieu-thuyet-chuyen-the---thanh-guom-diet-quy---khoi-dau-cua-dinh-menh.jpg"
+                                                    alt="" class="header__notify-pane-item-img">
+                                            </div>
+                                            <div class="header__notify-pane-item-text">
+                                                <span class="header__notify-pane-item-title">Sale sốc bộ truyện Hạ Đỏ
+                                                    được
+                                                    xem
+                                                    nhiều nhất 2021 tháng 3 </span>
+                                                <span class="header__notify-pane-item-desc">Giảm giá bộ truyên hạ đỏ từ
+                                                    với
+                                                    giá
+                                                    ưu đãi 100.000 xuống còn 50.000 tới hết tháng 3, miễn phí phí vận
+                                                    chuyển đặt mua ngay để không bỏ lỡ bộ truyện này</span>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-pane-item">
+                                        <a href="" class="header__notify-pane-item-link">
+                                            <div class="header__notify-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/t/i/tieu-thuyet-chuyen-the---thanh-guom-diet-quy---khoi-dau-cua-dinh-menh.jpg"
+                                                    alt="" class="header__notify-pane-item-img">
+                                            </div>
+                                            <div class="header__notify-pane-item-text">
+                                                <span class="header__notify-pane-item-title">Sale sốc bộ truyện Hạ Đỏ
+                                                    được
+                                                    xem
+                                                    nhiều nhất 2021 tháng 3 </span>
+                                                <span class="header__notify-pane-item-desc">Giảm giá bộ truyên hạ đỏ từ
+                                                    với
+                                                    giá
+                                                    ưu đãi 100.000 xuống còn 50.000 tới hết tháng 3, miễn phí phí vận
+                                                    chuyển đặt mua ngay để không bỏ lỡ bộ truyện này</span>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-pane-item">
+                                        <a href="" class="header__notify-pane-item-link">
+                                            <div class="header__notify-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/t/i/tieu-thuyet-chuyen-the---thanh-guom-diet-quy---khoi-dau-cua-dinh-menh.jpg"
+                                                    alt="" class="header__notify-pane-item-img">
+                                            </div>
+                                            <div class="header__notify-pane-item-text">
+                                                <span class="header__notify-pane-item-title">Sale sốc bộ truyện Hạ Đỏ
+                                                    được
+                                                    xem
+                                                    nhiều nhất 2021 tháng 3 </span>
+                                                <span class="header__notify-pane-item-desc">Giảm giá bộ truyên hạ đỏ từ
+                                                    với
+                                                    giá
+                                                    ưu đãi 100.000 xuống còn 50.000 tới hết tháng 3, miễn phí phí vận
+                                                    chuyển đặt mua ngay để không bỏ lỡ bộ truyện này</span>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-pane-item">
+                                        <a href="" class="header__notify-pane-item-link">
+                                            <div class="header__notify-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/t/i/tieu-thuyet-chuyen-the---thanh-guom-diet-quy---khoi-dau-cua-dinh-menh.jpg"
+                                                    alt="" class="header__notify-pane-item-img">
+                                            </div>
+                                            <div class="header__notify-pane-item-text">
+                                                <span class="header__notify-pane-item-title">Sale sốc bộ truyện Hạ Đỏ
+                                                    được
+                                                    xem
+                                                    nhiều nhất 2021 tháng 3 </span>
+                                                <span class="header__notify-pane-item-desc">Giảm giá bộ truyên hạ đỏ từ
+                                                    với
+                                                    giá
+                                                    ưu đãi 100.000 xuống còn 50.000 tới hết tháng 3, miễn phí phí vận
+                                                    chuyển đặt mua ngay để không bỏ lỡ bộ truyện này</span>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-pane-item">
+                                        <a href="" class="header__notify-pane-item-link">
+                                            <div class="header__notify-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/t/i/tieu-thuyet-chuyen-the---thanh-guom-diet-quy---khoi-dau-cua-dinh-menh.jpg"
+                                                    alt="" class="header__notify-pane-item-img">
+                                            </div>
+                                            <div class="header__notify-pane-item-text">
+                                                <span class="header__notify-pane-item-title">Sale sốc bộ truyện Hạ Đỏ
+                                                    được
+                                                    xem
+                                                    nhiều nhất 2021 tháng 3 </span>
+                                                <span class="header__notify-pane-item-desc">Giảm giá bộ truyên hạ đỏ từ
+                                                    với
+                                                    giá
+                                                    ưu đãi 100.000</span>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="" class="header__notify-pane-footer-link">Xem tất cả</a>
+                            </div>
+                        </div>
+                        <div class="header__cart">
+                            <i class="fa-solid fa-cart-shopping header__cart-icon"></i>
+                            <span class="header__label">Giỏ hàng</span>
+                            <span class="header__cart-quantity">8</span>
+                            <div class="header__cart-pane">
+                                <span class="header__cart-pane-title">Giỏ hàng(5)</span>
+                                <ul class="header__cart-pane-list">
+                                    <li class="header__cart-pane-item">
+                                        <a href="" class="header__cart-pane-item-link">
+                                            <div class="header__cart-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/k/y/ky-nang-ban-hang-tuyet-dinh.jpg"
+                                                    alt="" class="header__cart-pane-item-img">
+                                            </div>
+                                            <div class="header__cart-pane-item-text">
+                                                <span class="header__cart-pane-item-name">Người bán hàng vĩ đại </span>
+                                                <div class="header__cart-pane-item-price-and-quantity">
+                                                    <span class="header__cart-pane-item-price">120.000</span>
+                                                    <span class="header__cart-pane-multiply">x</span>
+                                                    <span class="header__cart-pane-item-quantity">2</span>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__cart-pane-item">
+                                        <a href="" class="header__cart-pane-item-link">
+                                            <div class="header__cart-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/k/y/ky-nang-ban-hang-tuyet-dinh.jpg"
+                                                    alt="" class="header__cart-pane-item-img">
+                                            </div>
+                                            <div class="header__cart-pane-item-text">
+                                                <span class="header__cart-pane-item-name">Người bán hàng vĩ đại </span>
+                                                <div class="header__cart-pane-item-price-and-quantity">
+                                                    <span class="header__cart-pane-item-price">120.000</span>
+                                                    <span class="header__cart-pane-multiply">x</span>
+                                                    <span class="header__cart-pane-item-quantity">2</span>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__cart-pane-item">
+                                        <a href="" class="header__cart-pane-item-link">
+                                            <div class="header__cart-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/k/y/ky-nang-ban-hang-tuyet-dinh.jpg"
+                                                    alt="" class="header__cart-pane-item-img">
+                                            </div>
+                                            <div class="header__cart-pane-item-text">
+                                                <span class="header__cart-pane-item-name">Người bán hàng vĩ đại </span>
+                                                <div class="header__cart-pane-item-price-and-quantity">
+                                                    <span class="header__cart-pane-item-price">120.000</span>
+                                                    <span class="header__cart-pane-multiply">x</span>
+                                                    <span class="header__cart-pane-item-quantity">2</span>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__cart-pane-item">
+                                        <a href="" class="header__cart-pane-item-link">
+                                            <div class="header__cart-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/k/y/ky-nang-ban-hang-tuyet-dinh.jpg"
+                                                    alt="" class="header__cart-pane-item-img">
+                                            </div>
+                                            <div class="header__cart-pane-item-text">
+                                                <span class="header__cart-pane-item-name">Người bán hàng vĩ đại </span>
+                                                <div class="header__cart-pane-item-price-and-quantity">
+                                                    <span class="header__cart-pane-item-price">120.000</span>
+                                                    <span class="header__cart-pane-multiply">x</span>
+                                                    <span class="header__cart-pane-item-quantity">2</span>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__cart-pane-item">
+                                        <a href="" class="header__cart-pane-item-link">
+                                            <div class="header__cart-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/k/y/ky-nang-ban-hang-tuyet-dinh.jpg"
+                                                    alt="" class="header__cart-pane-item-img">
+                                            </div>
+                                            <div class="header__cart-pane-item-text">
+                                                <span class="header__cart-pane-item-name">Người bán hàng vĩ đại </span>
+                                                <div class="header__cart-pane-item-price-and-quantity">
+                                                    <span class="header__cart-pane-item-price">120.000</span>
+                                                    <span class="header__cart-pane-multiply">x</span>
+                                                    <span class="header__cart-pane-item-quantity">2</span>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__cart-pane-item">
+                                        <a href="" class="header__cart-pane-item-link">
+                                            <div class="header__cart-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/k/y/ky-nang-ban-hang-tuyet-dinh.jpg"
+                                                    alt="" class="header__cart-pane-item-img">
+                                            </div>
+                                            <div class="header__cart-pane-item-text">
+                                                <span class="header__cart-pane-item-name">Người bán hàng vĩ đại </span>
+                                                <div class="header__cart-pane-item-price-and-quantity">
+                                                    <span class="header__cart-pane-item-price">120.000</span>
+                                                    <span class="header__cart-pane-multiply">x</span>
+                                                    <span class="header__cart-pane-item-quantity">2</span>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__cart-pane-item">
+                                        <a href="" class="header__cart-pane-item-link">
+                                            <div class="header__cart-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/k/y/ky-nang-ban-hang-tuyet-dinh.jpg"
+                                                    alt="" class="header__cart-pane-item-img">
+                                            </div>
+                                            <div class="header__cart-pane-item-text">
+                                                <span class="header__cart-pane-item-name">Người bán hàng vĩ đại </span>
+                                                <div class="header__cart-pane-item-price-and-quantity">
+                                                    <span class="header__cart-pane-item-price">120.000</span>
+                                                    <span class="header__cart-pane-multiply">x</span>
+                                                    <span class="header__cart-pane-item-quantity">2</span>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="header__cart-pane-footer">
+                                    <div class="header__cart-pane-footer-total-price-wrapper">
+                                        <span class="header__cart-pane-footer-label">Tổng cộng:</span>
+                                        <span class="header__cart-pane-footer-price">1.000.000</span>
+                                    </div>
+                                    <button class="header__cart-pane-footer-btn">Xem giỏ hàng</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__user">
+                            <i class="fa-solid fa-user header__user-icon"></i>
+                            <span class="header__label">Tài khoản</span>
+                            <div class="header__user-pane">
+                                <a href="#" class="header__user-register">Đăng kí</a>
+                                <a href="#" class="header__user-log-in">Đăng nhập</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dưới header -->
+        <div class="under-header">
+            <div class="grid wide">
+                <div class="under-header__wrapper-content">
+                    <div class="navbar">
+                        <i class="fa-solid fa-bars navbar__bar-icon"></i>
+                        <span class="navbar__label">Danh mục sản phẩm</span>
+                        <ul class="navbar__list">
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Sách Văn Học
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Sách Kinh Tế
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Sách Tâm Lý
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Nuôi Dạy con
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Sách Thiếu Nhi
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Tiểu Sử - Hồi Ký
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Sách Quản Trị - Lãnh Đạo
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Sách Marketing- Bán Hàng
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Sách Khoa Học - Triết Học
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Sách Tâm Linh - Tôn Giáo
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Sách Y Học - Thực Dưỡng
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="under-header__contact">
+                        <i class="fa-solid fa-phone under-header__phone-icon"></i>
+                        <span class="under-header__phone">Hotline: 1900 1999</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider -->
+
+        <div class="slider grid wide">
+            <div class="wrapper-slider-img">
+                <img src="./img/slider-img-1.jpg" alt="" class="slider-img">
+            </div>
+            <div class="wrapper-slider-img">
+                <img src="./img/slider-img-2.png" alt="" class="slider-img">
+            </div>
+            <div class="wrapper-slider-img">
+                <img src="./img/slider-img-3.jpg" alt="" class="slider-img">
+            </div>
+            <div class="wrapper-slider-img">
+                <img src="./img/slider-img-4.jpg" alt="" class="slider-img">
+            </div>
+        </div>
+
+        <!-- Content -->
+
+        <div class="content">
+            <div class="grid wide">
+                <div class="section">
+                    <div class="section__header">
+                        <span class="section__title">SÁCH Y HỌC</span>
+                        <a href="" class="section__see-all-link">Xem tất cả</a>
+                    </div>
+                    <div class="product-list">
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020) Bước chậm lại</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon rating-icon-active "></i>
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon "></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section__header">
+                        <span class="section__title">SÁCH VĂN HỌC</span>
+                        <a href="" class="section__see-all-link">Xem tất cả</a>
+                    </div>
+                    <div class="product-list">
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020) Bước chậm lại</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon rating-icon-active "></i>
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon "></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section__header">
+                        <span class="section__title">SÁCH KINH TẾ</span>
+                        <a href="" class="section__see-all-link">Xem tất cả</a>
+                    </div>
+                    <div class="product-list">
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020) Bước chậm lại</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon rating-icon-active "></i>
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon "></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section__header">
+                        <span class="section__title">SÁCH TÂM LÝ</span>
+                        <a href="" class="section__see-all-link">Xem tất cả</a>
+                    </div>
+                    <div class="product-list">
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020) Bước chậm lại</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon rating-icon-active "></i>
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon "></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section__header">
+                        <span class="section__title">SÁCH MARKETING- BÁN HÀNG</span>
+                        <a href="" class="section__see-all-link">Xem tất cả</a>
+                    </div>
+                    <div class="product-list">
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020) Bước chậm lại</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon rating-icon-active "></i>
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon "></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                        <a href="" class="product-item">
+                            <div class="product-item-img-wrapper">
+                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_12629_1.jpg"
+                                    alt="" class="product-item-img">
+                            </div>
+                            <span class="product-item__name">Dấu Chân Trên Cát(Tái Bản 2020)</span>
+                            <div class="product-item__price">
+                                <span class="product-item__price-current">200.000 đ</span>
+                                <span class="product-item__price-old">240.000 đ</span>
+                            </div>
+                            <span class="product-item__sale-off-percent">-20%</span>
+                            <div class="product-item__rating">
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon rating-icon-active"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                                <i class="fa-solid fa-star rating-icon"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3">
+                        <div class="footer__body">
+                            <span class="footer__body-heading">DỊCH VỤ</span>
+                            <ul class="footer__body-list">
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link"> Điều khoản sử dụng</a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link"> Chính sách bảo mật</a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link"> Điều khoản sử dụng</a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link">Hệ thống trung tâm - nhà sách</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="footer__body">
+                            <span class="footer__body-heading">HỖ TRỢ</span>
+                            <ul class="footer__body-list">
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link"> Chính sách đổi - trả - hoàn tiền</a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link"> Chính sách khách sỉ</a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link"> Phương thức vận chuyển</a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link">Phương thức thanh toán và xuất HĐ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="footer__body">
+                            <span class="footer__body-heading">TÀI KHOẢN CỦA TÔI</span>
+                            <ul class="footer__body-list">
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link">Đăng nhập/ Tạo mới tài khoản</a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link"> Thay đổi địa chỉ khách hàng</a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link"> Chi tiết tài khoản</a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link">Lịch sử mua hàng</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="footer__body">
+                            <span class="footer__body-heading">LIÊN HỆ</span>
+                            <ul class="footer__body-list">
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link">
+                                        <i class="fa-brands fa-facebook"></i>
+                                        FaceBook
+                                    </a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link">
+                                        <i class="fa-brands fa-twitter"></i>
+                                        Twitter
+                                    </a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link">
+                                        <i class="fa-brands fa-instagram"></i>
+                                        Instagram
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal__body">
+            <div class="modal__close">
+                <i class="fa-solid fa-xmark modal__close-icon"></i>
+            </div>
+
+            <!-- Form đăng kí -->
+            <form action="" method="POST" class="form" id="form-1">
+                <h3 class="heading">Đăng ký</h3>
+
+                <!-- <div class="spacer"></div> -->
+
+                <div class="form-group">
+                    <label for="fullname" class="form-label">Tên đầy đủ</label>
+                    <input id="fullname" name="fullname" type="text" placeholder="VD: Trường Sơn" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input id="email" name="email" type="text" placeholder="VD: email@domain.com" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="form-label">Mật khẩu</label>
+                    <input id="password" name="password" type="text" placeholder="Nhập mật khẩu" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="password_confirmation" class="form-label">Nhập lại mật khẩu</label>
+                    <input id="password_confirmation" name="password_confirmation" placeholder="Nhập lại mật khẩu"
+                        type="text" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="avatar" class="form-label">Ảnh đại diện</label>
+                    <input id="avatar" name="avatar" type="file" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="password_confirmation" class="form-label">Giới tính</label>
+                    <div class="form-group-checkbox-block">
+                        <input name="gender" type="radio" value="male" class="form-control">
+                        Nam
+                    </div>
+                    <div class="form-group-checkbox-block">
+                        <input name="gender" type="radio" value="famale" class="form-control">
+                        Nữ
+                    </div>
+                    <div class="form-group-checkbox-block">
+                        <input name="gender" type="radio" value="other" class="form-control">
+                        Khác
+                    </div>
+                    <span class="form-message"></span>
+                </div>
+
+                <span class="form-text">Bằng việc đăng kí bạn đã đồng ý với NewBook.Vn về chính sách & bảo mật</span>
+
+                <button class="form-submit">Đăng ký</button>
+            </form>
+
+            <!-- Form đăng nhập -->
+            <form action="" method="POST" class="form" id="form-2">
+                <h3 class="heading">Đăng Nhập</h3>
+
+                <!-- <div class="spacer"></div> -->
+
+                <div class="form-group">
+                    <label for="fullname" class="form-label">Tên đăng nhập</label>
+                    <input id="fullname" name="fullname" type="text" placeholder="Nhập tên đăng nhập"
+                        class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="form-label">Mật khẩu</label>
+                    <input id="password" name="password" type="text" placeholder="Nhập mật khẩu" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+                <a href="#" class="form__forget-password-link">Quên mật khẩu?</a>
+                <span class="form-text">Nếu bạn chưa có tài khoảng
+                    <a href="" class="form-text-link">Đăng kí</a>
+                    ngay
+                </span>
+                <button class="form-submit">Đăng Nhập</button>
+                <div class="form__socials">
+                    <a href="#" class="form__socials-link">
+                        <i class="fa-brands fa-facebook form__socials-icon"></i> Đăng nhập với Facebok
+                    </a>
+                    <a href="#" class="form__socials-link">
+                        <i class="fa-brands fa-google form__socials-icon"></i>
+                        Đăng nhập với Google
+                    </a>
+                </div>
+            </form>
+
+            <!-- Form quên mật khẩu -->
+            <form action="" method="POST" class="form" id="form-3">
+                <h3 class="heading">Lấy Lại Mật Khẩu</h3>
+
+                <!-- <div class="spacer"></div> -->
+
+                <div class="form-group">
+                    <label for="fullname" class="form-label">Email</label>
+                    <input id="fullname" name="fullname" type="text" placeholder="Nhập tên đăng nhập"
+                        class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="form-label">Mã OTP</label>
+                    <input id="password" name="password" type="text" placeholder="Nhập mật khẩu" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="form-label">Mật khẩu mới</label>
+                    <input id="password" name="password" type="text" placeholder="Nhập mật khẩu" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="form-label">Nhập lại mật khẩu</label>
+                    <input id="password" name="password" type="text" placeholder="Nhập mật khẩu" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+                <button class="form-submit">Lưu lại</button>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/validate.js"></script>
+    <script>
+        Validator({
+            form: '#form-1',
+            formGroupSelector: '.form-group',
+            errorSelector: '.form-message',
+            rules: [
+                Validator.isRequired('#email'),
+                Validator.isRequired('#fullname'),
+                Validator.isEmail('#email'),
+                Validator.isRequired('#password'),
+                Validator.minLength('#password', 6),
+                Validator.isRequired('#password_confirmation'),
+                Validator.isRequired('input[name="gender"]'),
+                Validator.isRequired('#password_confirmation'),
+                Validator.isRequired('#avatar'),
+                Validator.isConfirmed('#password_confirmation', function () {
+                    return document.querySelector('#form-1 #password').value
+                })
+            ],
+            onSubmit: function (data) {
+                console.log(data)
+            }
+        })
+    </script>
+    <script>
+        let registerElement = document.querySelector('.header__user-register')
+        let logInElement = document.querySelector('.header__user-log-in')
+        let formRegisterElement = document.querySelector('#form-1')
+        let formLogInElement = document.querySelector('#form-2')
+        let formForgetPassElement = document.querySelector('#form-3')
+        let modalElement = document.querySelector('.modal')
+        let modalCloseElement = document.querySelector('.modal__close')
+        let forgetPassElement = document.querySelector('.form__forget-password-link')
+        registerElement.onclick = function () {
+            modalElement.classList.add('open')
+            formRegisterElement.classList.add('open')
+        }
+
+        logInElement.onclick = function () {
+            modalElement.classList.add('open')
+            formLogInElement.classList.add('open')
+        }
+
+        modalCloseElement.onclick = function () {
+            modalElement.classList.remove('open')
+            formRegisterElement.classList.remove('open')
+            formLogInElement.classList.remove('open')
+            forgetPassElement.classList.remove('open')
+        }
+        forgetPassElement.onclick = function () {
+            formForgetPassElement.classList.add('open')
+            formLogInElement.classList.remove('open')
+        }
+    </script>
+</body>
+
+</html>

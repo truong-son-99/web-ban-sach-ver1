@@ -1,0 +1,93 @@
+.content {
+    padding: 12px 0;
+    background-color: #f0f0f0;
+}
+
+.content__body {}
+
+.content__body-sidebar {
+    background-color: #fff;
+}
+
+.content__body-sidebar-heading {
+    display: block;
+    padding-bottom: 15px;
+    padding: 16px 0 12px 16px;
+    font-size: 1.2rem;
+    color: red;
+    font-weight: bold;
+}
+
+.content__body-sidebar-list {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.content__body-sidebar-item {}
+
+.content__body-sidebar-item-link.content__body-sidebar-item-link--active {
+    color: red;
+    font-weight: bold;
+}
+
+.content__body-sidebar-item-link {
+    display: block;
+    text-decoration: none;
+    padding: 12px 0 6px 16px;
+    color: #000;
+    font-size: 1rem;
+}
+
+.content__body-sidebar-item-link:hover {
+    font-weight: bold;
+}
+
+/* CSS form thông tin tài khoản */
+.form-info {
+    background-color: #fff;
+    padding: 30px 0 30px 50px;
+}
+
+.form-info-group {
+    padding-top: 16px;
+}
+
+.form-info-group:nth-child(5) {
+    display: flex;
+    align-items: center;
+}
+
+input[type="date"],
+input[type="text"] {
+    width: 150px;
+    border: 1px solid #ccc;
+    height: 30px;
+    width: 500px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.form-info-label {
+    display: inline-block;
+    width: 200px;
+    font-size: 1.1rem;
+}
+
+.form-info-control {}
+
+.form-info-group-checkbox-block+.form-info-group-checkbox-block {
+    margin-left: 16px;
+}
+
+.form-info-group-btn {
+    position: relative;
+    left: 320px;
+    margin-top: 41px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 8px 60px;
+    cursor: pointer;
+}

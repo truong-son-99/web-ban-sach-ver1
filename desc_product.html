@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin chi tiết sản phẩm</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/trangchu.css">
+    <link rel="stylesheet" href="./css/list_book.css">
+    <link rel="stylesheet" href="./css/desc_product.css">
+    <link rel="stylesheet" href="./css/grid.css">
+</head>
+
+<body>
+
+    <div class="app_desc-product">
+        <div class="header-wrapper">
+            <div class="grid wide">
+                <div class="header">
+                    <span class="header__logo">NewBook.Vn</span>
+                    <div class="header__search">
+                        <div class="header__search-input-wraper">
+                            <input type="text" placeholder="Nhập sản phẩm tìm kiếm" class="header__search-input">
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="fa-solid fa-magnifying-glass header__search-btn-icon"></i>
+                        </button>
+                    </div>
+                    <div class="header__notify-cart-wraper">
+                        <div class="header__notify">
+                            <i class="fa-solid fa-bell header__notify-icon"></i>
+                            <span class="header__label">Thông báo</span>
+                            <span class="header__notify-quantity">5</span>
+                            <div class="header__notify-pane">
+                                <span class="header__notify-pane-header">Thông báo mới nhận</span>
+                                <ul class="header__notify-pane-list">
+                                    <li class="header__notify-pane-item">
+                                        <a href="" class="header__notify-pane-item-link">
+                                            <div class="header__notify-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/t/i/tieu-thuyet-chuyen-the---thanh-guom-diet-quy---khoi-dau-cua-dinh-menh.jpg"
+                                                    alt="" class="header__notify-pane-item-img">
+                                            </div>
+                                            <div class="header__notify-pane-item-text">
+                                                <span class="header__notify-pane-item-title">Sale sốc bộ truyện Hạ Đỏ
+                                                    được
+                                                    xem
+                                                    nhiều nhất 2021 tháng 3 </span>
+                                                <span class="header__notify-pane-item-desc">Giảm giá bộ truyên hạ đỏ từ
+                                                    với
+                                                    giá
+                                                    ưu đãi 100.000 xuống còn 50.000 tới hết tháng 3, miễn phí phí vận
+                                                    chuyển đặt mua ngay để không bỏ lỡ bộ truyện này</span>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-pane-item">
+                                        <a href="" class="header__notify-pane-item-link">
+                                            <div class="header__notify-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/t/i/tieu-thuyet-chuyen-the---thanh-guom-diet-quy---khoi-dau-cua-dinh-menh.jpg"
+                                                    alt="" class="header__notify-pane-item-img">
+                                            </div>
+                                            <div class="header__notify-pane-item-text">
+                                                <span class="header__notify-pane-item-title">Sale sốc bộ truyện Hạ Đỏ
+                                                    được
+                                                    xem
+                                                    nhiều nhất 2021 tháng 3 </span>
+                                                <span class="header__notify-pane-item-desc">Giảm giá bộ truyên hạ đỏ từ
+                                                    với
+                                                    giá
+                                                    ưu đãi 100.000 xuống còn 50.000 tới hết tháng 3, miễn phí phí vận
+                                                    chuyển đặt mua ngay để không bỏ lỡ bộ truyện này</span>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-pane-item">
+                                        <a href="" class="header__notify-pane-item-link">
+                                            <div class="header__notify-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/t/i/tieu-thuyet-chuyen-the---thanh-guom-diet-quy---khoi-dau-cua-dinh-menh.jpg"
+                                                    alt="" class="header__notify-pane-item-img">
+                                            </div>
+                                            <div class="header__notify-pane-item-text">
+                                                <span class="header__notify-pane-item-title">Sale sốc bộ truyện Hạ Đỏ
+                                                    được
+                                                    xem
+                                                    nhiều nhất 2021 tháng 3 </span>
+                                                <span class="header__notify-pane-item-desc">Giảm giá bộ truyên hạ đỏ từ
+                                                    với
+                                                    giá
+                                                    ưu đãi 100.000 xuống còn 50.000 tới hết tháng 3, miễn phí phí vận
+                                                    chuyển đặt mua ngay để không bỏ lỡ bộ truyện này</span>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-pane-item">
+                                        <a href="" class="header__notify-pane-item-link">
+                                            <div class="header__notify-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/t/i/tieu-thuyet-chuyen-the---thanh-guom-diet-quy---khoi-dau-cua-dinh-menh.jpg"
+                                                    alt="" class="header__notify-pane-item-img">
+                                            </div>
+                                            <div class="header__notify-pane-item-text">
+                                                <span class="header__notify-pane-item-title">Sale sốc bộ truyện Hạ Đỏ
+                                                    được
+                                                    xem
+                                                    nhiều nhất 2021 tháng 3 </span>
+                                                <span class="header__notify-pane-item-desc">Giảm giá bộ truyên hạ đỏ từ
+                                                    với
+                                                    giá
+                                                    ưu đãi 100.000 xuống còn 50.000 tới hết tháng 3, miễn phí phí vận
+                                                    chuyển đặt mua ngay để không bỏ lỡ bộ truyện này</span>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-pane-item">
+                                        <a href="" class="header__notify-pane-item-link">
+                                            <div class="header__notify-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/t/i/tieu-thuyet-chuyen-the---thanh-guom-diet-quy---khoi-dau-cua-dinh-menh.jpg"
+                                                    alt="" class="header__notify-pane-item-img">
+                                            </div>
+                                            <div class="header__notify-pane-item-text">
+                                                <span class="header__notify-pane-item-title">Sale sốc bộ truyện Hạ Đỏ
+                                                    được
+                                                    xem
+                                                    nhiều nhất 2021 tháng 3 </span>
+                                                <span class="header__notify-pane-item-desc">Giảm giá bộ truyên hạ đỏ từ
+                                                    với
+                                                    giá
+                                                    ưu đãi 100.000</span>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="" class="header__notify-pane-footer-link">Xem tất cả</a>
+                            </div>
+                        </div>
+                        <div class="header__cart">
+                            <i class="fa-solid fa-cart-shopping header__cart-icon"></i>
+                            <span class="header__label">Giỏ hàng</span>
+                            <span class="header__cart-quantity">8</span>
+                            <div class="header__cart-pane">
+                                <span class="header__cart-pane-title">Giỏ hàng(5)</span>
+                                <ul class="header__cart-pane-list">
+                                    <li class="header__cart-pane-item">
+                                        <a href="" class="header__cart-pane-item-link">
+                                            <div class="header__cart-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/k/y/ky-nang-ban-hang-tuyet-dinh.jpg"
+                                                    alt="" class="header__cart-pane-item-img">
+                                            </div>
+                                            <div class="header__cart-pane-item-text">
+                                                <span class="header__cart-pane-item-name">Người bán hàng vĩ đại </span>
+                                                <div class="header__cart-pane-item-price-and-quantity">
+                                                    <span class="header__cart-pane-item-price">120.000</span>
+                                                    <span class="header__cart-pane-multiply">x</span>
+                                                    <span class="header__cart-pane-item-quantity">2</span>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__cart-pane-item">
+                                        <a href="" class="header__cart-pane-item-link">
+                                            <div class="header__cart-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/k/y/ky-nang-ban-hang-tuyet-dinh.jpg"
+                                                    alt="" class="header__cart-pane-item-img">
+                                            </div>
+                                            <div class="header__cart-pane-item-text">
+                                                <span class="header__cart-pane-item-name">Người bán hàng vĩ đại </span>
+                                                <div class="header__cart-pane-item-price-and-quantity">
+                                                    <span class="header__cart-pane-item-price">120.000</span>
+                                                    <span class="header__cart-pane-multiply">x</span>
+                                                    <span class="header__cart-pane-item-quantity">2</span>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__cart-pane-item">
+                                        <a href="" class="header__cart-pane-item-link">
+                                            <div class="header__cart-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/k/y/ky-nang-ban-hang-tuyet-dinh.jpg"
+                                                    alt="" class="header__cart-pane-item-img">
+                                            </div>
+                                            <div class="header__cart-pane-item-text">
+                                                <span class="header__cart-pane-item-name">Người bán hàng vĩ đại </span>
+                                                <div class="header__cart-pane-item-price-and-quantity">
+                                                    <span class="header__cart-pane-item-price">120.000</span>
+                                                    <span class="header__cart-pane-multiply">x</span>
+                                                    <span class="header__cart-pane-item-quantity">2</span>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__cart-pane-item">
+                                        <a href="" class="header__cart-pane-item-link">
+                                            <div class="header__cart-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/k/y/ky-nang-ban-hang-tuyet-dinh.jpg"
+                                                    alt="" class="header__cart-pane-item-img">
+                                            </div>
+                                            <div class="header__cart-pane-item-text">
+                                                <span class="header__cart-pane-item-name">Người bán hàng vĩ đại </span>
+                                                <div class="header__cart-pane-item-price-and-quantity">
+                                                    <span class="header__cart-pane-item-price">120.000</span>
+                                                    <span class="header__cart-pane-multiply">x</span>
+                                                    <span class="header__cart-pane-item-quantity">2</span>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__cart-pane-item">
+                                        <a href="" class="header__cart-pane-item-link">
+                                            <div class="header__cart-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/k/y/ky-nang-ban-hang-tuyet-dinh.jpg"
+                                                    alt="" class="header__cart-pane-item-img">
+                                            </div>
+                                            <div class="header__cart-pane-item-text">
+                                                <span class="header__cart-pane-item-name">Người bán hàng vĩ đại </span>
+                                                <div class="header__cart-pane-item-price-and-quantity">
+                                                    <span class="header__cart-pane-item-price">120.000</span>
+                                                    <span class="header__cart-pane-multiply">x</span>
+                                                    <span class="header__cart-pane-item-quantity">2</span>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__cart-pane-item">
+                                        <a href="" class="header__cart-pane-item-link">
+                                            <div class="header__cart-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/k/y/ky-nang-ban-hang-tuyet-dinh.jpg"
+                                                    alt="" class="header__cart-pane-item-img">
+                                            </div>
+                                            <div class="header__cart-pane-item-text">
+                                                <span class="header__cart-pane-item-name">Người bán hàng vĩ đại </span>
+                                                <div class="header__cart-pane-item-price-and-quantity">
+                                                    <span class="header__cart-pane-item-price">120.000</span>
+                                                    <span class="header__cart-pane-multiply">x</span>
+                                                    <span class="header__cart-pane-item-quantity">2</span>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__cart-pane-item">
+                                        <a href="" class="header__cart-pane-item-link">
+                                            <div class="header__cart-pane-item-img-wrapper">
+                                                <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/k/y/ky-nang-ban-hang-tuyet-dinh.jpg"
+                                                    alt="" class="header__cart-pane-item-img">
+                                            </div>
+                                            <div class="header__cart-pane-item-text">
+                                                <span class="header__cart-pane-item-name">Người bán hàng vĩ đại </span>
+                                                <div class="header__cart-pane-item-price-and-quantity">
+                                                    <span class="header__cart-pane-item-price">120.000</span>
+                                                    <span class="header__cart-pane-multiply">x</span>
+                                                    <span class="header__cart-pane-item-quantity">2</span>
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="header__cart-pane-footer">
+                                    <div class="header__cart-pane-footer-total-price-wrapper">
+                                        <span class="header__cart-pane-footer-label">Tổng cộng:</span>
+                                        <span class="header__cart-pane-footer-price">1.000.000</span>
+                                    </div>
+                                    <button class="header__cart-pane-footer-btn">Xem giỏ hàng</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__user">
+                            <i class="fa-solid fa-user header__user-icon"></i>
+                            <span class="header__label">Tài khoản</span>
+                            <div class="header__user-pane">
+                                <a href="" class="header__user-register">Đăng kí</a>
+                                <a href="" class="header__user-log-in">Đăng nhập</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dưới header -->
+        <div class="under-header">
+            <div class="grid wide">
+                <div class="under-header__wrapper-content">
+                    <div class="navbar">
+                        <i class="fa-solid fa-bars navbar__bar-icon"></i>
+                        <span class="navbar__label">Danh mục sản phẩm</span>
+                        <ul class="navbar__list">
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Sách Văn Học
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Sách Kinh Tế
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Sách Tâm Lý
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Nuôi Dạy con
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Sách Thiếu Nhi
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Tiểu Sử - Hồi Ký
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Sách Quản Trị - Lãnh Đạo
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Sách Marketing- Bán Hàng
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Sách Khoa Học - Triết Học
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Sách Tâm Linh - Tôn Giáo
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="" class="navbar__item-link">
+                                    Sách Y Học - Thực Dưỡng
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="under-header__contact">
+                        <i class="fa-solid fa-phone under-header__phone-icon"></i>
+                        <span class="under-header__phone">Hotline: 1900 1999</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content_desc-product">
+            <div class="grid wide">
+                <div class="content_desc-product-wrapper">
+                    <div class="content_desc-product-sub-img-wrapper">
+                        <a href="https://cdn0.fahasa.com/media/flashmagazine/images/page_images/nha_lanh_dao_khong_chuc_danh/2019_09_19_12_02_22_1-390x510.jpg"
+                            class="content_desc-product-sub-img-link">
+                            <img src="https://cdn0.fahasa.com/media/flashmagazine/images/page_images/nha_lanh_dao_khong_chuc_danh/2019_09_19_12_02_22_1-390x510.jpg"
+                                alt="">
+                        </a>
+                        <a href="https://cdn0.fahasa.com/media/flashmagazine/images/page_images/nha_lanh_dao_khong_chuc_danh/2019_09_19_12_02_22_1-390x510.jpg"
+                            class="content_desc-product-sub-img-link">
+                            <img src="https://cdn0.fahasa.com/media/flashmagazine/images/page_images/nha_lanh_dao_khong_chuc_danh/2019_09_19_12_02_22_1-390x510.jpg"
+                                alt="">
+                        </a>
+                        <a href="https://cdn0.fahasa.com/media/flashmagazine/images/page_images/nha_lanh_dao_khong_chuc_danh/2019_09_19_12_02_22_1-390x510.jpg"
+                            class="content_desc-product-sub-img-link">
+                            <img src="https://cdn0.fahasa.com/media/flashmagazine/images/page_images/nha_lanh_dao_khong_chuc_danh/2019_09_19_12_02_22_1-390x510.jpg"
+                                alt="">
+                        </a>
+                        <a href="https://cdn0.fahasa.com/media/flashmagazine/images/page_images/nha_lanh_dao_khong_chuc_danh/2019_09_19_12_02_22_1-390x510.jpg"
+                            class="content_desc-product-sub-img-link">
+                            <img src="https://cdn0.fahasa.com/media/flashmagazine/images/page_images/nha_lanh_dao_khong_chuc_danh/2019_09_19_12_02_22_1-390x510.jpg"
+                                alt="">
+                        </a>
+                        <a href="https://cdn0.fahasa.com/media/flashmagazine/images/page_images/nha_lanh_dao_khong_chuc_danh/2019_09_19_12_02_22_1-390x510.jpg"
+                            class="content_desc-product-sub-img-link">
+                            <img src="https://cdn0.fahasa.com/media/flashmagazine/images/page_images/nha_lanh_dao_khong_chuc_danh/2019_09_19_12_02_22_1-390x510.jpg"
+                                alt="">
+                        </a>
+                        <a href="https://cdn0.fahasa.com/media/flashmagazine/images/page_images/nha_lanh_dao_khong_chuc_danh/2019_09_19_12_02_22_1-390x510.jpg"
+                            class="content_desc-product-sub-img-link">
+                            <img src="https://cdn0.fahasa.com/media/flashmagazine/images/page_images/nha_lanh_dao_khong_chuc_danh/2019_09_19_12_02_22_1-390x510.jpg"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="img-and-btn-wrapper">
+                        <a class="content_desc-product-img">
+                            <img src="https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/600x600/9df78eab33525d08d6e5fb8d27136e95/t/i/tieu-thuyet-chuyen-the---thanh-guom-diet-quy---khoi-dau-cua-dinh-menh.jpg"
+                                alt="">
+                        </a>
+                        <div class="btn-wrapper">
+                            <button class="add-cart-btn">
+                                <i class="fa-solid fa-cart-shopping add-cart-btn-icon"></i>
+                                Thêm vào giỏ hàng
+                            </button>
+                            <button class="buy-btn">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="content__desc-product-info">
+                        <span class="content__desc-product-name">Tiểu Thuyết Chuyển Thể - Thanh Gươm Diệt Quỷ: Tanjiro
+                            Và
+                            Nezuko - Khởi Đầu Của Định Mệnh</span>
+                        <span class="content__desc-product-intro">Vào thời Taisho, có một cậu bé bán than với tấm lòng
+                            nhân
+                            hậu tên là Tanjiro. Những ngày yên bình bỗng chốc tan biến khi “Quỷ” đến tàn sát cả gia đình
+                            cậu, chỉ duy nhất người em gái Nezuko còn sống sót nhưng lại bị biến thành Quỷ. Mang trong
+                            mình
+                            quyết tâm giúp em gái trở lại làm người, Tanjiro cùng Nezuko bắt đầu cuộc hành trình tìm
+                            kiếm
+                            tung tích con quỷ đã ra tay với gia đình mình!! Cuộc phiêu lưu trên con đường kiếm sĩ đầy
+                            chông
+                            gai đã bắt đầu!!
+
+                            Nguyên tác/ Minh họa KOYOHARU GOTOUGE
+
+                            THANH GƯƠM DIỆT QUỶ lần đầu xuất hiện trên Tuần san Shonen Jump số 11 năm 2016. Với nội dung
+                            mang đậm tính phiêu lưu và cách xây dựng nhân vật cuốn hút, bộ truyện đã nhận được sự ủng hộ
+                            của
+                            đông đảo độc giả.
+
+                            Tác giả tiểu thuyết: SHUKA MATSUDA
+
+                            Nhà văn từng chấp bút cho tiểu thuyết của các bộ truyện tranh nổi tiếng như Kingdom, Con nhà
+                            giàu - Phần 2 (Hananochihare Hanadan Next Season).
+
+                            Mã hàng 8935244868005
+                            Tên Nhà Cung Cấp Nhà Xuất Bản Kim Đồng
+                            Tác giả Koyoharu Gotouge, Shuka Matsuda
+                            Người Dịch Blahira
+                            NXB NXB Kim Đồng
+                            Năm XB 2022
+                            Ngôn Ngữ Tiếng Việt
+                            Trọng lượng (gr) 300
+                            Kích Thước Bao Bì 17.6 x 11.3 cm
+                            Số trang 240
+                            Hình thức Bìa Mềm
+                            Sản phẩm hiển thị trong
+                            Nhà Xuất Bản Kim Đồng
+                            Ví VNPAY hoàn 25K
+                            ZaloPay
+                            Sản phẩm bán chạy nhất Top 100 sản phẩm Tiểu thuyết bán chạy của tháng
+                            Tiểu Thuyết Chuyển Thể - Thanh Gươm Diệt Quỷ: Tanjiro Và Nezuko - Khởi Đầu Của Định Mệnh
+
+                            Vào thời Taisho, có một cậu bé bán than với tấm lòng nhân hậu tên là Tanjiro. Những ngày yên
+                            bình bỗng chốc tan biến khi “Quỷ” đến tàn sát cả gia đình cậu, chỉ duy nhất người em gái
+                            Nezuko
+                            còn sống sót nhưng lại bị biến thành Quỷ. Mang trong mình quyết tâm giúp em gái trở lại làm
+                            người, Tanjiro cùng Nezuko bắt đầu cuộc hành trình tìm kiếm tung tích con quỷ đã ra tay với
+                            gia
+                            đình mình!! Cuộc phiêu lưu trên con đường kiếm sĩ đầy chông gai đã bắt đầu!!
+
+                            Nguyên tác/ Minh họa KOYOHARU GOTOUGE
+
+                            THANH GƯƠM DIỆT QUỶ lần đầu xuất hiện trên Tuần san Shonen Jump số 11 năm 2016. Với nội dung
+                            mang đậm tính phiêu lưu và cách xây dựng nhân vật cuốn hút, bộ truyện đã nhận được sự ủng hộ
+                            của
+                            đông đảo độc giả.
+
+                            Tác giả tiểu thuyết: SHUKA MATSUDA
+
+                            Nhà văn từng chấp bút cho tiểu thuyết của các bộ truyện tranh nổi tiếng như Kingdom, Con nhà
+                            giàu - Phần 2 (Hananochihare Hanadan Next Season).
+
+                        </span>
+                        <div class="content__desc-product-price">50.000 đ</div>
+                        <div class="content__desc-product-label-and-quantity-wrapper">
+                            <span class="content__desc-product-label">Số lượng</span>
+                            <div class="content__desc-product-quantity-block">
+                                <a href="content__desc-product-sign-link">
+                                    <img src="https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/ico_plus2x.png"
+                                        alt="" class="content__desc-product-sign-img">
+                                </a>
+                                <input type="text" class="content__desc-product-quantity-input">
+                                <a href="">
+                                    <img src="https://cdn0.fahasa.com/skin//frontend/ma_vanese/fahasa/images/ico_minus2x.png"
+                                        alt="" class="content__desc-product-sign-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content_desc-product-detail">
+                    <span class="content_desc-product-detail-heading">Thông tin sản phẩm</span>
+                    <div class="content_desc-product-detail-block">
+                        <span class="content_desc-product-detail-label">Mã Hàng:</span>
+                        <span class="content_desc-product-detail-text">1238432424</span>
+                    </div>
+                    <div class="content_desc-product-detail-block">
+                        <span class="content_desc-product-detail-label">Tên Nhà Cung Cấp:</span>
+                        <span class="content_desc-product-detail-text">Nhà Xuất Bản Kim Đồng</span>
+                    </div>
+                    <div class="content_desc-product-detail-block">
+                        <span class="content_desc-product-detail-label">Tác Giả:</span>
+                        <span class="content_desc-product-detail-text">Koyoharu Gotouge, Shuka Matsuda</span>
+                    </div>
+                    <div class="content_desc-product-detail-block">
+                        <span class="content_desc-product-detail-label">Ngôn ngữ:</span>
+                        <span class="content_desc-product-detail-text">Tiếng Việt</span>
+                    </div>
+                    <div class="content_desc-product-detail-block">
+                        <span class="content_desc-product-detail-label">Trọng Lượng:</span>
+                        <span class="content_desc-product-detail-text">300gr</span>
+                    </div>
+                    <div class="content_desc-product-detail-block">
+                        <span class="content_desc-product-detail-label">Số Trang :</span>
+                        <span class="content_desc-product-detail-text">240</span>
+                    </div>
+                </div>
+
+                <form class="content_desc-product-rating-form">
+                    <span class="content_desc-product-rating-form-heading">Viết đánh giá sản phẩm</span>
+                    <div class="content_desc-product-rating-form-icon-wrapper">
+                        <i class="fa-solid fa-star content_desc-product-rating-form-icon"></i>
+                        <i class="fa-solid fa-star content_desc-product-rating-form-icon"></i>
+                        <i class="fa-solid fa-star content_desc-product-rating-form-icon"></i>
+                        <i class="fa-solid fa-star content_desc-product-rating-form-icon"></i>
+                        <i class="fa-solid fa-star content_desc-product-rating-form-icon"></i>
+                    </div>
+                    <div class="content_desc-product-rating-form-enter-name">
+                        <input type="text" placeholder="Tên của bạn"
+                            class="content_desc-product-rating-form-enter-name-input">
+                    </div>
+                    <div class="content_desc-product-rating-form-enter-comment-of-me">
+                        <textarea type="text" rows="8" cols="10" placeholder="Nhập nhận xét của bạn về sản phẩm"
+                            name="nhap_comment"
+                            class="content_desc-product-rating-form-enter-comment-of-me-input"></textarea>
+                    </div>
+                    <button class="content_desc-product-rating-form-btn">Gửi nhận xét</button>
+                </form>
+
+                <div class="content_desc-product-comment-block-wrapper">
+                    <span class="content_desc-product-comment-block-heading">Mới nhất</span>
+                    <div class="content_desc-product-comment-block">
+                        <div class="content_desc-product-comment-block-info">
+                            <span class="content_desc-product-comment-block-info-name">Long</span>
+                            <span class="content_desc-product-comment-block-info-time">8/10/2021</span>
+                        </div>
+                        <div class="content_desc-product-comment-block-comment-content-and-rating">
+                            <div class="content_desc-product-comment-block-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="content_desc-product-comment-block-comment-content">Một câu chuyện thấm đẫm tư
+                                tưởng về sự tự quản, nghĩa vụ của bản thân; với khung kỹ thuật ứng dụng cụ thể. Bất kỳ
+                                ai
+                                cũng cần đọc cuốn sách này để cải thiện bản thân, nhóm của họ tốt hơn và tổ chức của họ
+                                tốt
+                                hơn. Khi trưởng thành, việc sử dụng năng lượng của một người cũng điên rồ như cách mà
+                                tuổi
+                                thơ của mỗi người phải trải qua. Ngoài ra, đừng hiểu lạm dụng việc già đi. Hãy tự lãnh
+                                đạo
+                                bản thân để có lựa chọn sử dụng các kỹ năng của bản thân một cách thích hợp, và sau đó,
+                                danh
+                                hiệu sẽ khám phá ra bạn là một người đam mê thực sự. Không giả thuyết lộn xộn, không đào
+                                tạo, không mệnh lệnh, không lý luận chính xác, không chức danh trưởng giả sẽ khiến bạn
+                                thay
+                                đổi bản thân một cách mạnh mẽ. Một cuốn sách đặc biệt dành cho các anh chị em kinh
+                                doanh.
+                                Đặc biệt đối với một số anh chị em mới bắt đầu kinh doanh, thường xuyên thất vọng và suy
+                                nhược, cuốn sách này sẽ giúp bạn có thêm cơ sở, vững vàng và không ngừng nỗ lực để đạt
+                                được
+                                thành tựu trong tương lai.</span>
+                        </div>
+                    </div>
+                    <div class="content_desc-product-comment-block">
+                        <div class="content_desc-product-comment-block-info">
+                            <span class="content_desc-product-comment-block-info-name">Long</span>
+                            <span class="content_desc-product-comment-block-info-time">8/10/2021</span>
+                        </div>
+                        <div class="content_desc-product-comment-block-comment-content-and-rating">
+                            <div class="content_desc-product-comment-block-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="content_desc-product-comment-block-comment-content">Một câu chuyện thấm đẫm tư
+                                tưởng về sự tự quản, nghĩa vụ của bản thân; với khung kỹ thuật ứng dụng cụ thể. Bất kỳ
+                                ai
+                                cũng cần đọc cuốn sách này để cải thiện bản thân, nhóm của họ tốt hơn và tổ chức của họ
+                                tốt
+                                hơn. Khi trưởng thành, việc sử dụng năng lượng của một người cũng điên rồ như cách mà
+                                tuổi
+                                thơ của mỗi người phải trải qua. Ngoài ra, đừng hiểu lạm dụng việc già đi. Hãy tự lãnh
+                                đạo
+                                bản thân để có lựa chọn sử dụng các kỹ năng của bản thân một cách thích hợp, và sau đó,
+                                danh
+                                hiệu sẽ khám phá ra bạn là một người đam mê thực sự. Không giả thuyết lộn xộn, không đào
+                                tạo, không mệnh lệnh, không lý luận chính xác, không chức danh trưởng giả sẽ khiến bạn
+                                thay
+                                đổi bản thân một cách mạnh mẽ. Một cuốn sách đặc biệt dành cho các anh chị em kinh
+                                doanh.
+                                Đặc biệt đối với một số anh chị em mới bắt đầu kinh doanh, thường xuyên thất vọng và suy
+                                nhược, cuốn sách này sẽ giúp bạn có thêm cơ sở, vững vàng và không ngừng nỗ lực để đạt
+                                được
+                                thành tựu trong tương lai.</span>
+                        </div>
+                    </div>
+                    <div class="content_desc-product-comment-block">
+                        <div class="content_desc-product-comment-block-info">
+                            <span class="content_desc-product-comment-block-info-name">Long</span>
+                            <span class="content_desc-product-comment-block-info-time">8/10/2021</span>
+                        </div>
+                        <div class="content_desc-product-comment-block-comment-content-and-rating">
+                            <div class="content_desc-product-comment-block-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="content_desc-product-comment-block-comment-content">Một câu chuyện thấm đẫm tư
+                                tưởng về sự tự quản, nghĩa vụ của bản thân; với khung kỹ thuật ứng dụng cụ thể. Bất kỳ
+                                ai
+                                cũng cần đọc cuốn sách này để cải thiện bản thân, nhóm của họ tốt hơn và tổ chức của họ
+                                tốt
+                                hơn. Khi trưởng thành, việc sử dụng năng lượng của một người cũng điên rồ như cách mà
+                                tuổi
+                                thơ của mỗi người phải trải qua. Ngoài ra, đừng hiểu lạm dụng việc già đi. Hãy tự lãnh
+                                đạo
+                                bản thân để có lựa chọn sử dụng các kỹ năng của bản thân một cách thích hợp, và sau đó,
+                                danh
+                                hiệu sẽ khám phá ra bạn là một người đam mê thực sự. Không giả thuyết lộn xộn, không đào
+                                tạo, không mệnh lệnh, không lý luận chính xác, không chức danh trưởng giả sẽ khiến bạn
+                                thay
+                                đổi bản thân một cách mạnh mẽ. Một cuốn sách đặc biệt dành cho các anh chị em kinh
+                                doanh.
+                                Đặc biệt đối với một số anh chị em mới bắt đầu kinh doanh, thường xuyên thất vọng và suy
+                                nhược, cuốn sách này sẽ giúp bạn có thêm cơ sở, vững vàng và không ngừng nỗ lực để đạt
+                                được
+                                thành tựu trong tương lai.</span>
+                        </div>
+                    </div>
+                    <div class="content_desc-product-comment-block">
+                        <div class="content_desc-product-comment-block-info">
+                            <span class="content_desc-product-comment-block-info-name">Long</span>
+                            <span class="content_desc-product-comment-block-info-time">8/10/2021</span>
+                        </div>
+                        <div class="content_desc-product-comment-block-comment-content-and-rating">
+                            <div class="content_desc-product-comment-block-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="content_desc-product-comment-block-comment-content">Một câu chuyện thấm đẫm tư
+                                tưởng về sự tự quản, nghĩa vụ của bản thân; với khung kỹ thuật ứng dụng cụ thể. Bất kỳ
+                                ai
+                                cũng cần đọc cuốn sách này để cải thiện bản thân, nhóm của họ tốt hơn và tổ chức của họ
+                                tốt
+                                hơn. Khi trưởng thành, việc sử dụng năng lượng của một người cũng điên rồ như cách mà
+                                tuổi
+                                thơ của mỗi người phải trải qua. Ngoài ra, đừng hiểu lạm dụng việc già đi. Hãy tự lãnh
+                                đạo
+                                bản thân để có lựa chọn sử dụng các kỹ năng của bản thân một cách thích hợp, và sau đó,
+                                danh
+                                hiệu sẽ khám phá ra bạn là một người đam mê thực sự. Không giả thuyết lộn xộn, không đào
+                                tạo, không mệnh lệnh, không lý luận chính xác, không chức danh trưởng giả sẽ khiến bạn
+                                thay
+                                đổi bản thân một cách mạnh mẽ. Một cuốn sách đặc biệt dành cho các anh chị em kinh
+                                doanh.
+                                Đặc biệt đối với một số anh chị em mới bắt đầu kinh doanh, thường xuyên thất vọng và suy
+                                nhược, cuốn sách này sẽ giúp bạn có thêm cơ sở, vững vàng và không ngừng nỗ lực để đạt
+                                được
+                                thành tựu trong tương lai.</span>
+                        </div>
+                    </div>
+
+                    <!-- Pagination lấy css từ list_book và class cũng đặng giống listbook.html -->
+                    <div class="content__pagination">
+                        <a href="" class="content__pagination-link">
+                            <i class="content__pagination-icon fas fa-angle-left"></i>
+                        </a>
+                        <a href="" class="content__pagination-link">
+                            1
+                        </a>
+                        <a href="" class="content__pagination-link">
+                            2
+                        </a>
+                        <a href="" class="content__pagination-link">
+                            3
+                        </a>
+                        <a href="" class="content__pagination-link">
+                            4
+                        </a>
+                        <a href="" class="content__pagination-link">
+                            5
+                        </a>
+                        <a href="" class="content__pagination-link">
+                            .....
+                        </a>
+                        <a href="" class="content__pagination-link">
+                            14
+                        </a>
+                        <a href="" class="content__pagination-link">
+                            <i class="content__pagination-icon fas fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3">
+                        <div class="footer__body">
+                            <span class="footer__body-heading">DỊCH VỤ</span>
+                            <ul class="footer__body-list">
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link"> Điều khoản sử dụng</a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link"> Chính sách bảo mật</a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link"> Điều khoản sử dụng</a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link">Hệ thống trung tâm - nhà sách</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="footer__body">
+                            <span class="footer__body-heading">HỖ TRỢ</span>
+                            <ul class="footer__body-list">
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link"> Chính sách đổi - trả - hoàn tiền</a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link"> Chính sách khách sỉ</a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link"> Phương thức vận chuyển</a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link">Phương thức thanh toán và xuất HĐ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="footer__body">
+                            <span class="footer__body-heading">TÀI KHOẢN CỦA TÔI</span>
+                            <ul class="footer__body-list">
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link">Đăng nhập/ Tạo mới tài khoản</a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link"> Thay đổi địa chỉ khách hàng</a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link"> Chi tiết tài khoản</a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link">Lịch sử mua hàng</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="footer__body">
+                            <span class="footer__body-heading">LIÊN HỆ</span>
+                            <ul class="footer__body-list">
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link">
+                                        <i class="fa-brands fa-facebook"></i>
+                                        FaceBook
+                                    </a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link">
+                                        <i class="fa-brands fa-twitter"></i>
+                                        Twitter
+                                    </a>
+                                </li>
+                                <li class="footer__body-item">
+                                    <a href="" class="footer__body-item-link">
+                                        <i class="fa-brands fa-instagram"></i>
+                                        Instagram
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
